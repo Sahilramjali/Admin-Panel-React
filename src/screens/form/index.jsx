@@ -132,6 +132,15 @@ const Form =()=>{
                             }}
                             />
                     </Box>
+                    <Box display="flex" mt="20px" justifyContent="end">
+                        <Button
+                        type="submit"
+                        color="secondary"
+                        variant="contained"
+                        >
+                            Create
+                        </Button>
+                    </Box>
                 </form>
             )}
         </Formik>
