@@ -8,6 +8,7 @@ import Team from "./screens/team";
 import NotFound from "./screens/components/NotFound";
 import Contacts from './screens/contacts';
 import Invoice from "./screens/invoices";
+import Form from "./screens/form";
 function App() {
   const [theme, colorMode] = useMode();
 
@@ -24,7 +25,7 @@ function App() {
               <Route path='/team' element={<Team/>}/>
               <Route path='/contacts' element={<Contacts/>}/>
               <Route path='/invoices' element={<Invoice/>}/>
-              {/* <Route path='/form' element={<Form/>}/> */}
+              <Route path='/form' element={<Form/>}/>
               {/* <Route path='/bar' element={<Bar/>}/> */}
               {/* <Route path='/pie' element={<Pie/>}/> */}
               {/* <Route path='/line' element={<Line/>}/> */}
