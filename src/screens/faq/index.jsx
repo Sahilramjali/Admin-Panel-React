@@ -10,9 +10,9 @@ const Faq=()=>{
     const theme=useTheme();
     const color=tokens(theme.palette.mode);
     return(
-<Box m="20px">
+<Box m="20px" height="75vh">
         <Header title="FAQ" subtitle="Frequently Asked Questions"/>
-        <Accordion style={{marginBottom:"12px"}}>
+        <Accordion style={{marginBottom:"12px"}} defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                 <Typography color={color.greenAccent[500]} variant="h5">
                     An important qeuestion
@@ -27,7 +27,7 @@ const Faq=()=>{
             </AccordionDetails>
             
         </Accordion>
-        <Accordion style={{marginBottom:"12px"}}>
+        <Accordion style={{marginBottom:"12px"}} defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                 <Typography color={color.greenAccent[500]} variant="h5">
                     An important qeuestion
@@ -42,7 +42,7 @@ const Faq=()=>{
             </AccordionDetails>
             
         </Accordion>
-        <Accordion style={{marginBottom:"12px"}}>
+        <Accordion style={{marginBottom:"12px"}} defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                 <Typography color={color.greenAccent[500]} variant="h5">
                     An important qeuestion
@@ -57,7 +57,7 @@ const Faq=()=>{
             </AccordionDetails>
             
         </Accordion>
-        <Accordion style={{marginBottom:"12px"}}>
+        <Accordion style={{marginBottom:"12px"}} defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                 <Typography color={color.greenAccent[500]} variant="h5">
                     An important qeuestion
@@ -72,7 +72,7 @@ const Faq=()=>{
             </AccordionDetails>
             
         </Accordion>
-        <Accordion style={{marginBottom:"12px"}}>
+        <Accordion style={{marginBottom:"12px"}} defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                 <Typography color={color.greenAccent[500]} variant="h5">
                     An important qeuestion
@@ -87,7 +87,7 @@ const Faq=()=>{
             </AccordionDetails>
             
         </Accordion>
-        <Accordion style={{marginBottom:"12px"}}>
+        <Accordion style={{marginBottom:"12px"}} defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                 <Typography color={color.greenAccent[500]} variant="h5">
                     An important qeuestion
@@ -102,6 +102,7 @@ const Faq=()=>{
             </AccordionDetails>
             
         </Accordion>
+        
 </Box>
     );
 }

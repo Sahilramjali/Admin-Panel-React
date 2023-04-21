@@ -6,8 +6,9 @@ const NotFound=()=>{
         display="flex"
         justifyContent="center"
         alignItems="center"
+        height="100vh"
         >
-            <Typography>
+            <Typography variant="h1">
                 404 Page Not Found
             </Typography>
         </Box>

@@ -11,6 +11,8 @@ import Invoice from "./screens/invoices";
 import Form from "./screens/form";
 import Calendar from "./screens/calendar";
 import Faq from "./screens/faq";
+import Bar from "./screens/bar";
+import Pie from "./screens/Pie";
 function App() {
   const [theme, colorMode] = useMode();
 
@@ -28,8 +30,8 @@ function App() {
               <Route path='/contacts' element={<Contacts/>}/>
               <Route path='/invoices' element={<Invoice/>}/>
               <Route path='/form' element={<Form/>}/>
-              {/* <Route path='/bar' element={<Bar/>}/> */}
-              {/* <Route path='/pie' element={<Pie/>}/> */}
+              <Route path='/bar' element={<Bar/>}/>
+              <Route path='/pie' element={<Pie/>}/>
               {/* <Route path='/line' element={<Line/>}/> */}
               <Route path='/faq' element={<Faq/>}/> 
               {/* <Route path='/geography' element={<Geography/>}/> */}
