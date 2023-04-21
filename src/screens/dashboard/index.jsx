@@ -234,7 +234,7 @@ const DashBoard = () => {
               alignItems="center"
               mt="25px"
           >
-            <PieChart/>
+            <ProgessCircle size="125"/>
             <Typography variant="h5" color={colors.greenAccent[500]} sx={{mt:"15px"}}>
                 $50,789 Revenue Generated
             </Typography>
