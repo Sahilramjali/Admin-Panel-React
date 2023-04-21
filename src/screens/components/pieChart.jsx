@@ -107,7 +107,8 @@ return (
             
         ]}
         //pov description of chart
-        legends={[
+        legends={
+            isdashboard?undefined:[
             {
                 anchor: 'bottom',
                 direction: 'row',

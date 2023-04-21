@@ -13,6 +13,8 @@ import Calendar from "./screens/calendar";
 import Faq from "./screens/faq";
 import Bar from "./screens/bar";
 import Pie from "./screens/Pie";
+import Line from "./screens/line";
+import Geography from "./screens/Geography";
 function App() {
   const [theme, colorMode] = useMode();
 
@@ -32,9 +34,9 @@ function App() {
               <Route path='/form' element={<Form/>}/>
               <Route path='/bar' element={<Bar/>}/>
               <Route path='/pie' element={<Pie/>}/>
-              {/* <Route path='/line' element={<Line/>}/> */}
+              <Route path='/line' element={<Line/>}/>
               <Route path='/faq' element={<Faq/>}/> 
-              {/* <Route path='/geography' element={<Geography/>}/> */}
+              <Route path='/geography' element={<Geography/>}/>
               <Route path='/calendar' element={<Calendar/>}/>
               <Route path='*' element={<NotFound />} />
             </Routes>
