@@ -9,6 +9,7 @@ import NotFound from "./screens/components/NotFound";
 import Contacts from './screens/contacts';
 import Invoice from "./screens/invoices";
 import Form from "./screens/form";
+import Calendar from "./screens/calendar";
 function App() {
   const [theme, colorMode] = useMode();
 
@@ -31,7 +32,7 @@ function App() {
               {/* <Route path='/line' element={<Line/>}/> */}
               {/* <Route path='/faq' element={<Faq/>}/>  */}
               {/* <Route path='/geography' element={<Geography/>}/> */}
-                  {/* <Route path='/calendar' element={<Calendar/>}/> */}
+              <Route path='/calendar' element={<Calendar/>}/>
               <Route path='*' element={<NotFound />} />
             </Routes>
           
